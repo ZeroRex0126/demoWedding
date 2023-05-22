@@ -202,15 +202,19 @@
 .btRight {
   overflow: hidden;
   position: fixed;
-  bottom: -100px;
-  right: -100px;
+  bottom: -70px;
+  right: -40px;
 }
 
 .tpLeft {
   overflow: hidden;
   position: fixed;
-  top: -50px;
-  left: -100px;
+  top: -30px;
+  left: -40px;
+}
+
+.display-4 {
+  font-weight: 500 !important;
 }
 
 .btn-primary {

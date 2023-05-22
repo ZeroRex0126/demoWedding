@@ -84,7 +84,7 @@ const AboutComponent = ({ webSiteSetting }) => {
                 width={300}
                 height={250}
                 className="aboutPic"
-                src={`/webContent/groom.png`}
+                src={`/webContent/groom.jpg`}
               />
               <div className="text-center">
                 <div className="h-100 d-flex flex-column justify-content-cente p-5 groom">
@@ -127,7 +127,7 @@ const AboutComponent = ({ webSiteSetting }) => {
                 width={300}
                 height={250}
                 className="aboutPic"
-                src={`/webContent/bride.png`}
+                src={`/webContent/bride.jpg`}
               />
               <div className="text-center">
                 <div className="h-100 d-flex flex-column justify-content-cente p-5 bride">

@@ -20,8 +20,8 @@ function useLocalStorageForPageKey(key, fallbackValue) {
   return [value, setValue];
 }
 
-const theUser = "Y2xpbnRvbiZjaGFuZWw=";
-const pw = "MTIzNDU=";
+const theUser = "YWRtaW4=";
+const pw = "YWRtaW4=";
 
 const portal = () => {
   const [login, setLogin] = useState(localStorage.getItem("login"));

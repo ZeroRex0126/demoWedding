@@ -44,6 +44,11 @@ const Login = ({ loginFunc, loginError }) => {
             value={username}
             type={"text"}
             width="auto"
+            onKeyPress={(e) => {
+              if (e.key.toUpperCase() === "ENTER") {
+                loginFunc(username, password);
+              }
+            }}
             onValueChange={(e) => {
               setUsername(e.target.value);
             }}
@@ -54,6 +59,11 @@ const Login = ({ loginFunc, loginError }) => {
             value={password}
             type={"password"}
             width="auto"
+            onKeyPress={(e) => {
+              if (e.key.toUpperCase() === "ENTER") {
+                loginFunc(username, password);
+              }
+            }}
             onValueChange={(e) => {
               setPassword(e.target.value);
             }}

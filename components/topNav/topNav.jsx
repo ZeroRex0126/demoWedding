@@ -27,6 +27,7 @@ const NavBarComp = styled.nav`
 
   .navbar-toggler {
     // background: ${fontColor};
+    border: none;
   }
   @media (min-width: 991px) {
     .music-item {
@@ -45,7 +46,7 @@ const NavBarComp = styled.nav`
   .line {
     fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: white;
+    stroke: ${fontColor};
     stroke-width: 5.5;
     stroke-linecap: round;
   }
