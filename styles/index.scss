@@ -17,8 +17,8 @@
 
 * {
   font-family: "Quick";
-  --bg-color: white;
-  --line-color: pink;
+  --bg-color: #f1f1ef;
+  --line-color: #9eb3d0;
 }
 
 .loadingMain {
@@ -249,16 +249,18 @@
 
 .btRight {
   overflow: hidden;
-  position: fixed;
-  bottom: -70px;
-  right: -40px;
+  // position: fixed;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 .tpLeft {
   overflow: hidden;
-  position: fixed;
-  top: -30px;
-  left: -40px;
+  // position: fixed;
+  position: absolute;
+  top: 55px;
+  left: 0px;
 }
 
 .display-4 {
@@ -417,9 +419,9 @@
 }
 
 @media (max-width: 500px) {
-  .coner-decor {
-    display: none;
-  }
+  // .coner-decor {
+  //   display: none;
+  // }
 }
 
 @media (max-width: 600px) {

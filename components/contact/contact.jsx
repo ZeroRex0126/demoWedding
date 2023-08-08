@@ -12,8 +12,8 @@ const ContactComp = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${primaryColor};
-  color: ${fontColor};
+  background-color: ${lineColor};
+  color: ${primaryColor};
 
   .divider {
     border-left: solid;
@@ -21,7 +21,7 @@ const ContactComp = styled.div`
   }
 
   .socialBtn {
-    background: ${primaryColor};
+    background: ${lineColor};
     color: ${fontColor};
     border: ${fontColor} solid 2px;
     margin: 5px;
@@ -29,7 +29,7 @@ const ContactComp = styled.div`
 
   .socialBtn:hover {
     background: ${fontColor};
-    color: ${primaryColor};
+    color: ${lineColor};
     border: ${fontColor} solid 2px;
     margin: 5px;
   }
@@ -41,7 +41,7 @@ const ContactComp = styled.div`
     height: 2px;
     bottom: 11px;
     right: calc(50% - 80px);
-    background: ${lineColor};
+    background: ${fontColor};
   }
 
   .section-title::before {
@@ -51,7 +51,7 @@ const ContactComp = styled.div`
     height: 2px;
     bottom: 11px;
     left: calc(50% - 80px);
-    background: ${lineColor};
+    background: ${fontColor};
   }
 `;
 
@@ -74,7 +74,7 @@ const Contact = () => {
             </a> */}
               <a
                 className="socialBtn btn btn-lg btn-outline-light btn-lg-square mr-2"
-                href="https://www.facebook.com/profile.php?id=100092525387923"
+                href="https://www.facebook.com/profile.php?id=100094604778325"
                 target="_blank"
               >
                 <FaFacebookF />
@@ -87,7 +87,7 @@ const Contact = () => {
             </a> */}
               <a
                 className="socialBtn btn btn-lg btn-outline-light btn-lg-square"
-                href="https://www.instagram.com/x_i_ting_sites/"
+                href="https://www.instagram.com/te_theenvelope/"
                 target="_blank"
               >
                 <BsInstagram />
@@ -99,7 +99,7 @@ const Contact = () => {
             <div className="d-flex justify-content-center py-2">
               <a
                 className="socialBtn btn btn-lg btn-outline-light btn-lg-square"
-                href="mailto: x.i.ting.sites@gmail.com"
+                href="mailto: te.theenvelope@gmail.com"
               >
                 <GoMail />
               </a>
@@ -117,10 +117,10 @@ const Contact = () => {
               &copy; Designed by{" "}
               <a
                 className="text-primary"
-                href="https://www.instagram.com/x_i_ting_sites/"
+                href="https://www.instagram.com/te_theenvelope/"
                 target="_blank"
               >
-                X-I-Ting Sites
+                The Envelope
               </a>
             </p>
           </Fade>

@@ -40,24 +40,6 @@ export default function Home({ calRemaining, webSiteSetting, remainingTime }) {
       </div>
       <HomeComp webSiteSetting={webSiteSetting} remainingTime={remainingTime} />
 
-      <Fade
-        className="btRight coner-decor"
-        direction="right"
-        duration={2000}
-        triggerOnce={true}
-      >
-        <Image width={350} height={350} src={"/webContent/bottomRight.png"} />
-      </Fade>
-
-      <Fade
-        className="tpLeft coner-decor"
-        direction="left"
-        duration={2000}
-        triggerOnce={true}
-      >
-        <Image width={350} height={350} src={"/webContent/topLeft.png"} />
-      </Fade>
-
       <AboutComponent webSiteSetting={webSiteSetting} />
       <StoryComponent webSiteSetting={webSiteSetting} />
       {/* <Gallery webSiteSetting={webSiteSetting} /> */}

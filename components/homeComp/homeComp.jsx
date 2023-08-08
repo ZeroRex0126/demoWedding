@@ -1,8 +1,10 @@
+import { Fade } from "react-awesome-reveal";
 import { monthsLargeName } from "../../arrays/arrays";
 import { fontColor, primaryColor } from "../../libs/color";
 import TimerCard from "../timerCard/timerCard";
 
 import styled from "styled-components";
+import Image from "next/image";
 
 const HomeCom = styled.div`
   .mainTitle {
@@ -79,6 +81,24 @@ const HomeComp = ({ webSiteSetting, remainingTime }) => {
           </div>
         </div>
       </div>
+
+      <Fade
+        className="btRight coner-decor"
+        direction="right"
+        duration={2000}
+        triggerOnce={true}
+      >
+        <Image width={350} height={350} src={"/webContent/bottomRight.png"} />
+      </Fade>
+
+      <Fade
+        className="tpLeft coner-decor"
+        direction="left"
+        duration={2000}
+        triggerOnce={true}
+      >
+        <Image width={350} height={350} src={"/webContent/topLeft.png"} />
+      </Fade>
     </HomeCom>
   );
 };

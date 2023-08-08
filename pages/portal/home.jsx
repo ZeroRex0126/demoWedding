@@ -681,10 +681,7 @@ const PortalHome = ({ GetData, reservation }) => {
           <InfoCard title={"Attending"} count={getTotalAttending()} />
         </div>
         <div>
-          <InfoCard
-            title={"Head Counts"}
-            count={getTotalAttendingHeadCounts()}
-          />
+          <InfoCard title={"Amount"} count={getTotalAttendingHeadCounts()} />
         </div>
         <div className="dataTableContainer">
           <div className="dt">

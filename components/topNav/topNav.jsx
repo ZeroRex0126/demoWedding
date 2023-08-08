@@ -21,12 +21,16 @@ const NavBarComp = styled.nav`
     color: ${fontColor} !important;
   }
 
+  .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+
   .font-secondary {
     font-family: "Script";
   }
 
   .navbar-toggler {
-    // background: ${fontColor};
     border: none;
   }
   @media (min-width: 991px) {
