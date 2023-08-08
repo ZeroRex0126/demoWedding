@@ -82,7 +82,7 @@ const HomeComp = ({ webSiteSetting, remainingTime }) => {
         </div>
       </div>
 
-      <Fade
+      {/* <Fade
         className="btRight coner-decor"
         direction="right"
         duration={2000}
@@ -98,7 +98,7 @@ const HomeComp = ({ webSiteSetting, remainingTime }) => {
         triggerOnce={true}
       >
         <Image width={350} height={350} src={"/webContent/topLeft.png"} />
-      </Fade>
+      </Fade> */}
     </HomeCom>
   );
 };
